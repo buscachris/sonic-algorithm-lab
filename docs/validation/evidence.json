@@ -1,0 +1,20 @@
+{
+  "note": "Original validation reports copied byte-for-byte; absolute paths refer to the machine where those runs occurred. Binary artifacts and save states referenced by reports are not in Git.",
+  "reports": [
+    {
+      "file": "genesis-plus-gx.json",
+      "original_project_path": "workspaces/2026-11-17_expanded-lab/native/builds/2026-11-17_23-26-44_949661Z_sage-lab/checks-genesis_plus_gx/report.json",
+      "sha256": "e4dafbadd4cff1972cacadd304df5ee5c6d7951f7fb82ddb5bcb4776bc2ad13c"
+    },
+    {
+      "file": "blastem.json",
+      "original_project_path": "workspaces/2026-11-17_expanded-lab/native/builds/2026-11-17_23-26-44_949661Z_sage-lab/checks-blastem/report.json",
+      "sha256": "84a80b4066fad367e0bc2ac5a8ff634ec6d24d297ad777a5790793ec23a6370f"
+    },
+    {
+      "file": "portability.json",
+      "original_project_path": "workspaces/2026-11-18_portable-tools/native/builds/2026-11-18_01-32-55_062634Z_sage-lab/checks-portability/report.json",
+      "sha256": "a3e504a2a3e98a08417d212c6aff8a6101c5a2bdec96b0be94d809a5045b09a0"
+    }
+  ]
+}

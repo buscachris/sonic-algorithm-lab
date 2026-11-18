@@ -1,0 +1,6503 @@
+{
+  "rom": "/home/anon/sonic-algorithm-lab/workspaces/2026-11-17_expanded-lab/native/builds/2026-11-17_23-26-44_949661Z_sage-lab/Sonic Algorithm Lab - SAGE Engine.bin",
+  "core": "/home/anon/.config/retroarch/cores/genesis_plus_gx_libretro.so",
+  "core_sha256": "f2891567622652365ffd5eee6d93e4c8485dc9f441fc7100b6bc549844dc3ad3",
+  "static": {
+    "sha256": "bef8ef1a565ddd7a334794417d090c26ad361bd102c69add13114bab265cfc2d",
+    "checksum": "8138",
+    "changed_bytes": 214112,
+    "patch_count": 53,
+    "source_files": 23,
+    "diff_scope": "passed",
+    "native_asset_provenance": "passed",
+    "completion_sfx": "C5, native act-results cash register"
+  },
+  "controller_playthrough": [
+    "Start freezes/resumes the player and algorithm; RUN toggles off/on",
+    "bubble: gate/warp, STEP, RESET, all five INPUT selections, RUN, HUB/completion",
+    "insertion: gate/warp, STEP, RESET, all five INPUT selections, RUN, HUB/completion",
+    "binary: gate/warp, STEP, RESET, all five INPUT selections, RUN, HUB/completion",
+    "bfs: gate/warp, STEP, RESET, all five INPUT selections, RUN, HUB/completion",
+    "priority: gate/warp, STEP, RESET, all five INPUT selections, RUN, HUB/completion",
+    "first-fit: gate/warp, STEP, RESET, all five INPUT selections, RUN, HUB/completion",
+    "selection: gate/warp, STEP, RESET, all five INPUT selections, RUN, HUB/completion",
+    "odd-even: gate/warp, STEP, RESET, all five INPUT selections, RUN, HUB/completion",
+    "merge: gate/warp, STEP, RESET, all five INPUT selections, RUN, HUB/completion",
+    "quick: gate/warp, STEP, RESET, all five INPUT selections, RUN, HUB/completion",
+    "heap: gate/warp, STEP, RESET, all five INPUT selections, RUN, HUB/completion",
+    "linear: gate/warp, STEP, RESET, all five INPUT selections, RUN, HUB/completion"
+  ],
+  "core_name": "Genesis Plus GX",
+  "core_version": "v1.7.4 c858c9c",
+  "algorithm_cases": [
+    {
+      "algorithm": "bubble",
+      "dataset": 0,
+      "operations": 25,
+      "comparisons": 25,
+      "frames": 1694,
+      "final": {
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 25,
+        "comparisons": 25,
+        "swaps": 15,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          3,
+          5,
+          1,
+          7,
+          4,
+          0,
+          6,
+          2
+        ]
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "bubble",
+      "dataset": 1,
+      "operations": 28,
+      "comparisons": 28,
+      "frames": 2258,
+      "final": {
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 28,
+        "comparisons": 28,
+        "swaps": 28,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "bubble",
+      "dataset": 2,
+      "operations": 13,
+      "comparisons": 13,
+      "frames": 690,
+      "final": {
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 13,
+        "comparisons": 13,
+        "swaps": 2,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5,
+          7,
+          6
+        ]
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "bubble",
+      "dataset": 3,
+      "operations": 7,
+      "comparisons": 7,
+      "frames": 332,
+      "final": {
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 7,
+        "comparisons": 7,
+        "swaps": 0,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "bubble",
+      "dataset": 4,
+      "operations": 27,
+      "comparisons": 27,
+      "frames": 1728,
+      "final": {
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 27,
+        "comparisons": 27,
+        "swaps": 13,
+        "values": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          3
+        ],
+        "ids": [
+          1,
+          4,
+          7,
+          3,
+          5,
+          0,
+          2,
+          6
+        ]
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "insertion",
+      "dataset": 0,
+      "operations": 20,
+      "comparisons": 20,
+      "frames": 1448,
+      "final": {
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 20,
+        "comparisons": 20,
+        "swaps": 15,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          3,
+          5,
+          1,
+          7,
+          4,
+          0,
+          6,
+          2
+        ]
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "insertion",
+      "dataset": 1,
+      "operations": 28,
+      "comparisons": 28,
+      "frames": 2256,
+      "final": {
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 28,
+        "comparisons": 28,
+        "swaps": 28,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "insertion",
+      "dataset": 2,
+      "operations": 9,
+      "comparisons": 9,
+      "frames": 493,
+      "final": {
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 9,
+        "comparisons": 9,
+        "swaps": 2,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5,
+          7,
+          6
+        ]
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "insertion",
+      "dataset": 3,
+      "operations": 7,
+      "comparisons": 7,
+      "frames": 331,
+      "final": {
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 7,
+        "comparisons": 7,
+        "swaps": 0,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "insertion",
+      "dataset": 4,
+      "operations": 19,
+      "comparisons": 19,
+      "frames": 1335,
+      "final": {
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 19,
+        "comparisons": 19,
+        "swaps": 13,
+        "values": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          3
+        ],
+        "ids": [
+          1,
+          4,
+          7,
+          3,
+          5,
+          0,
+          2,
+          6
+        ]
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "binary",
+      "dataset": 0,
+      "operations": 2,
+      "comparisons": 2,
+      "frames": 86,
+      "final": {
+        "low": 4,
+        "high": 7,
+        "mid": 5,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "result": [
+          5,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 1,
+        "result_mask": 32,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 2,
+        "comparisons": 2
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "binary",
+      "dataset": 1,
+      "operations": 3,
+      "comparisons": 3,
+      "frames": 135,
+      "final": {
+        "low": 0,
+        "high": 0,
+        "mid": 0,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "result": [
+          0,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 1,
+        "result_mask": 1,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 3,
+        "comparisons": 3
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "binary",
+      "dataset": 2,
+      "operations": 4,
+      "comparisons": 4,
+      "frames": 184,
+      "final": {
+        "low": 7,
+        "high": 7,
+        "mid": 7,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "result": [
+          7,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 1,
+        "result_mask": 128,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 4,
+        "comparisons": 4
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "binary",
+      "dataset": 3,
+      "operations": 3,
+      "comparisons": 3,
+      "frames": 135,
+      "final": {
+        "low": 3,
+        "high": 2,
+        "mid": 2,
+        "values": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "result": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 0,
+        "result_mask": 0,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 3,
+        "comparisons": 3
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "binary",
+      "dataset": 4,
+      "operations": 1,
+      "comparisons": 1,
+      "frames": 37,
+      "final": {
+        "low": 0,
+        "high": 7,
+        "mid": 3,
+        "values": [
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          7,
+          9
+        ],
+        "result": [
+          3,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 1,
+        "result_mask": 8,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 1,
+        "comparisons": 1
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "bfs",
+      "dataset": 0,
+      "operations": 14,
+      "comparisons": 8,
+      "frames": 674,
+      "final": {
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          2,
+          3,
+          3
+        ],
+        "parents": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          2,
+          3,
+          5
+        ],
+        "queue": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          255
+        ],
+        "low": 6,
+        "high": 7,
+        "mid": 5,
+        "comparisons": 8,
+        "swaps": 8,
+        "mask": 255,
+        "result": [
+          0,
+          2,
+          5,
+          7,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 4,
+        "result_mask": 165,
+        "done": 1,
+        "event": 3,
+        "phase": 0,
+        "running": 0,
+        "operations": 14
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "bfs",
+      "dataset": 1,
+      "operations": 16,
+      "comparisons": 9,
+      "frames": 772,
+      "final": {
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          3,
+          4,
+          5
+        ],
+        "parents": [
+          0,
+          0,
+          1,
+          2,
+          1,
+          4,
+          5,
+          6
+        ],
+        "queue": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5,
+          6,
+          255
+        ],
+        "low": 7,
+        "high": 7,
+        "mid": 6,
+        "comparisons": 9,
+        "swaps": 8,
+        "mask": 255,
+        "result": [
+          0,
+          1,
+          4,
+          5,
+          6,
+          7,
+          255,
+          255
+        ],
+        "result_len": 6,
+        "result_mask": 243,
+        "done": 1,
+        "event": 3,
+        "phase": 0,
+        "running": 0,
+        "operations": 16
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "bfs",
+      "dataset": 2,
+      "operations": 10,
+      "comparisons": 5,
+      "frames": 478,
+      "final": {
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          255,
+          255,
+          255,
+          255
+        ],
+        "parents": [
+          0,
+          0,
+          0,
+          1,
+          255,
+          255,
+          255,
+          255
+        ],
+        "queue": [
+          0,
+          1,
+          2,
+          3,
+          255,
+          255,
+          255,
+          255
+        ],
+        "low": 4,
+        "high": 4,
+        "mid": 3,
+        "comparisons": 5,
+        "swaps": 4,
+        "mask": 15,
+        "result": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 0,
+        "result_mask": 0,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 10
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "bfs",
+      "dataset": 3,
+      "operations": 7,
+      "comparisons": 4,
+      "frames": 331,
+      "final": {
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          255,
+          255,
+          255,
+          2
+        ],
+        "parents": [
+          0,
+          0,
+          0,
+          1,
+          255,
+          255,
+          255,
+          2
+        ],
+        "queue": [
+          0,
+          1,
+          2,
+          3,
+          255,
+          255,
+          255,
+          255
+        ],
+        "low": 3,
+        "high": 4,
+        "mid": 2,
+        "comparisons": 4,
+        "swaps": 5,
+        "mask": 143,
+        "result": [
+          0,
+          2,
+          7,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 3,
+        "result_mask": 133,
+        "done": 1,
+        "event": 3,
+        "phase": 0,
+        "running": 0,
+        "operations": 7
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "bfs",
+      "dataset": 4,
+      "operations": 17,
+      "comparisons": 10,
+      "frames": 821,
+      "final": {
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          4,
+          5
+        ],
+        "parents": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          3,
+          5,
+          6
+        ],
+        "queue": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          255
+        ],
+        "low": 7,
+        "high": 7,
+        "mid": 6,
+        "comparisons": 10,
+        "swaps": 8,
+        "mask": 255,
+        "result": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          7,
+          255,
+          255
+        ],
+        "result_len": 6,
+        "result_mask": 235,
+        "done": 1,
+        "event": 3,
+        "phase": 0,
+        "running": 0,
+        "operations": 17
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "priority",
+      "dataset": 0,
+      "operations": 12,
+      "comparisons": 0,
+      "frames": 576,
+      "final": {
+        "elapsed": 12,
+        "waits": [
+          3,
+          1,
+          7,
+          0
+        ],
+        "total_wait": 11,
+        "turnaround": [
+          7,
+          3,
+          12,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mid": 65535,
+        "result": [
+          3,
+          1,
+          0,
+          2,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 4,
+        "mask": 15,
+        "result_mask": 15,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 12,
+        "comparisons": 0
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "priority",
+      "dataset": 1,
+      "operations": 10,
+      "comparisons": 0,
+      "frames": 478,
+      "final": {
+        "elapsed": 10,
+        "waits": [
+          8,
+          5,
+          4,
+          0
+        ],
+        "total_wait": 17,
+        "turnaround": [
+          10,
+          8,
+          5,
+          4
+        ],
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mid": 65535,
+        "result": [
+          3,
+          2,
+          1,
+          0,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 4,
+        "mask": 15,
+        "result_mask": 15,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 10,
+        "comparisons": 0
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "priority",
+      "dataset": 2,
+      "operations": 12,
+      "comparisons": 0,
+      "frames": 576,
+      "final": {
+        "elapsed": 12,
+        "waits": [
+          7,
+          1,
+          3,
+          0
+        ],
+        "total_wait": 11,
+        "turnaround": [
+          12,
+          3,
+          7,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mid": 65535,
+        "result": [
+          3,
+          1,
+          2,
+          0,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 4,
+        "mask": 15,
+        "result_mask": 15,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 12,
+        "comparisons": 0
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "priority",
+      "dataset": 3,
+      "operations": 8,
+      "comparisons": 0,
+      "frames": 380,
+      "final": {
+        "elapsed": 8,
+        "waits": [
+          2,
+          5,
+          0,
+          1
+        ],
+        "total_wait": 8,
+        "turnaround": [
+          5,
+          8,
+          1,
+          2
+        ],
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mid": 65535,
+        "result": [
+          2,
+          3,
+          0,
+          1,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 4,
+        "mask": 15,
+        "result_mask": 15,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 8,
+        "comparisons": 0
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "priority",
+      "dataset": 4,
+      "operations": 15,
+      "comparisons": 0,
+      "frames": 723,
+      "final": {
+        "elapsed": 15,
+        "waits": [
+          0,
+          14,
+          12,
+          9
+        ],
+        "total_wait": 35,
+        "turnaround": [
+          9,
+          15,
+          14,
+          12
+        ],
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mid": 65535,
+        "result": [
+          0,
+          3,
+          2,
+          1,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 4,
+        "mask": 15,
+        "result_mask": 15,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 15,
+        "comparisons": 0
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "first-fit",
+      "dataset": 0,
+      "operations": 13,
+      "comparisons": 13,
+      "frames": 625,
+      "final": {
+        "values": [
+          0,
+          3,
+          2,
+          3,
+          2,
+          0,
+          0,
+          0
+        ],
+        "result": [
+          1,
+          4,
+          0,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 4,
+        "swaps": 3,
+        "result_mask": 19,
+        "low": 4,
+        "mid": 0,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 13,
+        "comparisons": 13
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "first-fit",
+      "dataset": 1,
+      "operations": 10,
+      "comparisons": 10,
+      "frames": 478,
+      "final": {
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        "result": [
+          0,
+          1,
+          2,
+          3,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 4,
+        "swaps": 4,
+        "result_mask": 15,
+        "low": 4,
+        "mid": 0,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 10,
+        "comparisons": 10
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "first-fit",
+      "dataset": 2,
+      "operations": 5,
+      "comparisons": 5,
+      "frames": 233,
+      "final": {
+        "values": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "result": [
+          0,
+          0,
+          0,
+          1,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 4,
+        "swaps": 4,
+        "result_mask": 3,
+        "low": 4,
+        "mid": 0,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 5,
+        "comparisons": 5
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "first-fit",
+      "dataset": 3,
+      "operations": 17,
+      "comparisons": 17,
+      "frames": 821,
+      "final": {
+        "values": [
+          1,
+          0,
+          1,
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        "result": [
+          255,
+          255,
+          1,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 4,
+        "swaps": 1,
+        "result_mask": 2,
+        "low": 4,
+        "mid": 0,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 17,
+        "comparisons": 17
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "first-fit",
+      "dataset": 4,
+      "operations": 13,
+      "comparisons": 13,
+      "frames": 625,
+      "final": {
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "result": [
+          1,
+          1,
+          3,
+          4,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 4,
+        "swaps": 4,
+        "result_mask": 26,
+        "low": 4,
+        "mid": 0,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 13,
+        "comparisons": 13
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "selection",
+      "dataset": 0,
+      "operations": 33,
+      "comparisons": 28,
+      "frames": 1767,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          3,
+          5,
+          1,
+          7,
+          4,
+          0,
+          6,
+          2
+        ],
+        "comparisons": 28,
+        "swaps": 5,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 33
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "selection",
+      "dataset": 1,
+      "operations": 32,
+      "comparisons": 28,
+      "frames": 1685,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "comparisons": 28,
+        "swaps": 4,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 32
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "selection",
+      "dataset": 2,
+      "operations": 30,
+      "comparisons": 28,
+      "frames": 1523,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5,
+          7,
+          6
+        ],
+        "comparisons": 28,
+        "swaps": 2,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 30
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "selection",
+      "dataset": 3,
+      "operations": 28,
+      "comparisons": 28,
+      "frames": 1361,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "comparisons": 28,
+        "swaps": 0,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 28
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "selection",
+      "dataset": 4,
+      "operations": 32,
+      "comparisons": 28,
+      "frames": 1685,
+      "final": {
+        "values": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          3
+        ],
+        "ids": [
+          1,
+          4,
+          7,
+          3,
+          5,
+          0,
+          6,
+          2
+        ],
+        "comparisons": 28,
+        "swaps": 4,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 32
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "odd-even",
+      "dataset": 0,
+      "operations": 28,
+      "comparisons": 28,
+      "frames": 1840,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          3,
+          5,
+          1,
+          7,
+          4,
+          0,
+          6,
+          2
+        ],
+        "comparisons": 28,
+        "swaps": 15,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 28
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "odd-even",
+      "dataset": 1,
+      "operations": 35,
+      "comparisons": 35,
+      "frames": 2599,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "comparisons": 35,
+        "swaps": 28,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 35
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "odd-even",
+      "dataset": 2,
+      "operations": 14,
+      "comparisons": 14,
+      "frames": 738,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5,
+          7,
+          6
+        ],
+        "comparisons": 14,
+        "swaps": 2,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 14
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "odd-even",
+      "dataset": 3,
+      "operations": 7,
+      "comparisons": 7,
+      "frames": 331,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "comparisons": 7,
+        "swaps": 0,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 7
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "odd-even",
+      "dataset": 4,
+      "operations": 28,
+      "comparisons": 28,
+      "frames": 1776,
+      "final": {
+        "values": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          3
+        ],
+        "ids": [
+          1,
+          4,
+          7,
+          3,
+          5,
+          0,
+          2,
+          6
+        ],
+        "comparisons": 28,
+        "swaps": 13,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 28
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "merge",
+      "dataset": 0,
+      "operations": 24,
+      "comparisons": 17,
+      "frames": 1164,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          3,
+          5,
+          1,
+          7,
+          4,
+          0,
+          6,
+          2
+        ],
+        "comparisons": 17,
+        "swaps": 24,
+        "aux": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "initial": [
+          3,
+          5,
+          1,
+          7,
+          4,
+          0,
+          6,
+          2
+        ],
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 24
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "merge",
+      "dataset": 1,
+      "operations": 24,
+      "comparisons": 12,
+      "frames": 1164,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "comparisons": 12,
+        "swaps": 24,
+        "aux": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "initial": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 24
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "merge",
+      "dataset": 2,
+      "operations": 24,
+      "comparisons": 13,
+      "frames": 1164,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5,
+          7,
+          6
+        ],
+        "comparisons": 13,
+        "swaps": 24,
+        "aux": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "initial": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5,
+          7,
+          6
+        ],
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 24
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "merge",
+      "dataset": 3,
+      "operations": 24,
+      "comparisons": 12,
+      "frames": 1164,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "comparisons": 12,
+        "swaps": 24,
+        "aux": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "initial": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 24
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "merge",
+      "dataset": 4,
+      "operations": 24,
+      "comparisons": 17,
+      "frames": 1164,
+      "final": {
+        "values": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          3
+        ],
+        "ids": [
+          1,
+          4,
+          7,
+          3,
+          5,
+          0,
+          2,
+          6
+        ],
+        "comparisons": 17,
+        "swaps": 24,
+        "aux": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          3
+        ],
+        "initial": [
+          1,
+          4,
+          7,
+          3,
+          5,
+          0,
+          2,
+          6
+        ],
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 24
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "quick",
+      "dataset": 0,
+      "operations": 17,
+      "comparisons": 13,
+      "frames": 1045,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          3,
+          5,
+          1,
+          7,
+          4,
+          0,
+          6,
+          2
+        ],
+        "comparisons": 13,
+        "swaps": 7,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 17
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "quick",
+      "dataset": 1,
+      "operations": 35,
+      "comparisons": 28,
+      "frames": 1831,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "comparisons": 28,
+        "swaps": 4,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 35
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "quick",
+      "dataset": 2,
+      "operations": 24,
+      "comparisons": 19,
+      "frames": 1228,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5,
+          7,
+          6
+        ],
+        "comparisons": 19,
+        "swaps": 2,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 24
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "quick",
+      "dataset": 3,
+      "operations": 35,
+      "comparisons": 28,
+      "frames": 1703,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "comparisons": 28,
+        "swaps": 0,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 35
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "quick",
+      "dataset": 4,
+      "operations": 22,
+      "comparisons": 17,
+      "frames": 1194,
+      "final": {
+        "values": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          3
+        ],
+        "ids": [
+          1,
+          4,
+          7,
+          3,
+          5,
+          0,
+          6,
+          2
+        ],
+        "comparisons": 17,
+        "swaps": 4,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 22
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "heap",
+      "dataset": 0,
+      "operations": 45,
+      "comparisons": 26,
+      "frames": 2801,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          3,
+          5,
+          1,
+          7,
+          4,
+          0,
+          6,
+          2
+        ],
+        "comparisons": 26,
+        "swaps": 19,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 45
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "heap",
+      "dataset": 1,
+      "operations": 40,
+      "comparisons": 24,
+      "frames": 2460,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "comparisons": 24,
+        "swaps": 16,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 40
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "heap",
+      "dataset": 2,
+      "operations": 49,
+      "comparisons": 27,
+      "frames": 3093,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5,
+          7,
+          6
+        ],
+        "comparisons": 27,
+        "swaps": 22,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 49
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "heap",
+      "dataset": 3,
+      "operations": 49,
+      "comparisons": 27,
+      "frames": 3093,
+      "final": {
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "comparisons": 27,
+        "swaps": 22,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 49
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "heap",
+      "dataset": 4,
+      "operations": 38,
+      "comparisons": 24,
+      "frames": 2298,
+      "final": {
+        "values": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          3
+        ],
+        "ids": [
+          7,
+          4,
+          1,
+          5,
+          3,
+          6,
+          2,
+          0
+        ],
+        "comparisons": 24,
+        "swaps": 14,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 38
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "linear",
+      "dataset": 0,
+      "operations": 5,
+      "comparisons": 5,
+      "frames": 233,
+      "final": {
+        "values": [
+          6,
+          3,
+          8,
+          1,
+          5,
+          2,
+          7,
+          4
+        ],
+        "comparisons": 5,
+        "mid": 4,
+        "index": 4,
+        "result": [
+          4,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 1,
+        "result_mask": 16,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 5
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "linear",
+      "dataset": 1,
+      "operations": 1,
+      "comparisons": 1,
+      "frames": 37,
+      "final": {
+        "values": [
+          6,
+          3,
+          8,
+          1,
+          5,
+          2,
+          7,
+          4
+        ],
+        "comparisons": 1,
+        "mid": 0,
+        "index": 0,
+        "result": [
+          0,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 1,
+        "result_mask": 1,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 1
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "linear",
+      "dataset": 2,
+      "operations": 8,
+      "comparisons": 8,
+      "frames": 380,
+      "final": {
+        "values": [
+          6,
+          3,
+          8,
+          1,
+          5,
+          2,
+          7,
+          4
+        ],
+        "comparisons": 8,
+        "mid": 7,
+        "index": 7,
+        "result": [
+          7,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 1,
+        "result_mask": 128,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 8
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "linear",
+      "dataset": 3,
+      "operations": 8,
+      "comparisons": 8,
+      "frames": 380,
+      "final": {
+        "values": [
+          6,
+          3,
+          8,
+          1,
+          5,
+          2,
+          7,
+          4
+        ],
+        "comparisons": 8,
+        "mid": 7,
+        "index": 8,
+        "result": [
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 0,
+        "result_mask": 0,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 8
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    },
+    {
+      "algorithm": "linear",
+      "dataset": 4,
+      "operations": 2,
+      "comparisons": 2,
+      "frames": 86,
+      "final": {
+        "values": [
+          3,
+          1,
+          3,
+          2,
+          1,
+          2,
+          3,
+          1
+        ],
+        "comparisons": 2,
+        "mid": 1,
+        "index": 1,
+        "result": [
+          1,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "result_len": 1,
+        "result_mask": 2,
+        "done": 1,
+        "phase": 0,
+        "running": 0,
+        "operations": 2
+      },
+      "completion_sfx": "C5",
+      "completion_once": true
+    }
+  ],
+  "manual_completion": [
+    {
+      "algorithm": "bubble",
+      "final_operation": "controller STEP",
+      "completion_sfx": "C5",
+      "completion_once": true,
+      "status": "passed"
+    },
+    {
+      "algorithm": "insertion",
+      "final_operation": "controller STEP",
+      "completion_sfx": "C5",
+      "completion_once": true,
+      "status": "passed"
+    },
+    {
+      "algorithm": "binary",
+      "final_operation": "controller STEP",
+      "completion_sfx": "C5",
+      "completion_once": true,
+      "status": "passed"
+    },
+    {
+      "algorithm": "bfs",
+      "final_operation": "controller STEP",
+      "completion_sfx": "C5",
+      "completion_once": true,
+      "status": "passed"
+    },
+    {
+      "algorithm": "priority",
+      "final_operation": "controller STEP",
+      "completion_sfx": "C5",
+      "completion_once": true,
+      "status": "passed"
+    },
+    {
+      "algorithm": "first-fit",
+      "final_operation": "controller STEP",
+      "completion_sfx": "C5",
+      "completion_once": true,
+      "status": "passed"
+    },
+    {
+      "algorithm": "selection",
+      "final_operation": "controller STEP",
+      "completion_sfx": "C5",
+      "completion_once": true,
+      "status": "passed"
+    },
+    {
+      "algorithm": "odd-even",
+      "final_operation": "controller STEP",
+      "completion_sfx": "C5",
+      "completion_once": true,
+      "status": "passed"
+    },
+    {
+      "algorithm": "merge",
+      "final_operation": "controller STEP",
+      "completion_sfx": "C5",
+      "completion_once": true,
+      "status": "passed"
+    },
+    {
+      "algorithm": "quick",
+      "final_operation": "controller STEP",
+      "completion_sfx": "C5",
+      "completion_once": true,
+      "status": "passed"
+    },
+    {
+      "algorithm": "heap",
+      "final_operation": "controller STEP",
+      "completion_sfx": "C5",
+      "completion_once": true,
+      "status": "passed"
+    },
+    {
+      "algorithm": "linear",
+      "final_operation": "controller STEP",
+      "completion_sfx": "C5",
+      "completion_once": true,
+      "status": "passed"
+    }
+  ],
+  "reload_checks": [
+    {
+      "algorithm": "bubble",
+      "request": "0x0",
+      "room": 1,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "bubble",
+      "request": "0x3",
+      "room": 0,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "insertion",
+      "request": "0x200",
+      "room": 2,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "insertion",
+      "request": "0x203",
+      "room": 0,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "binary",
+      "request": "0x400",
+      "room": 3,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "binary",
+      "request": "0x403",
+      "room": 0,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "bfs",
+      "request": "0x100",
+      "room": 4,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "bfs",
+      "request": "0x103",
+      "room": 0,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "priority",
+      "request": "0x300",
+      "room": 5,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "priority",
+      "request": "0x303",
+      "room": 0,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "first-fit",
+      "request": "0x500",
+      "room": 6,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "first-fit",
+      "request": "0x503",
+      "room": 0,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "selection",
+      "request": "0x2",
+      "room": 7,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "selection",
+      "request": "0x3",
+      "room": 0,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "odd-even",
+      "request": "0x201",
+      "room": 8,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "odd-even",
+      "request": "0x203",
+      "room": 0,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "merge",
+      "request": "0x401",
+      "room": 9,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "merge",
+      "request": "0x403",
+      "room": 0,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "quick",
+      "request": "0x101",
+      "room": 10,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "quick",
+      "request": "0x103",
+      "room": 0,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "heap",
+      "request": "0x301",
+      "room": 11,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "heap",
+      "request": "0x303",
+      "room": 0,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "linear",
+      "request": "0x501",
+      "room": 12,
+      "method": "injected native level request",
+      "status": "passed"
+    },
+    {
+      "algorithm": "linear",
+      "request": "0x503",
+      "room": 0,
+      "method": "injected native level request",
+      "status": "passed"
+    }
+  ],
+  "flat_rooms": [
+    {
+      "room": "hub",
+      "objects": {
+        "0x1": 1,
+        "0xe0": 12,
+        "0xe1": 12,
+        "0xe2": 0
+      },
+      "floor_samples": [
+        [
+          16,
+          16,
+          940
+        ],
+        [
+          32,
+          32,
+          940
+        ],
+        [
+          48,
+          48,
+          940
+        ],
+        [
+          64,
+          64,
+          940
+        ],
+        [
+          80,
+          80,
+          931
+        ],
+        [
+          96,
+          96,
+          931
+        ],
+        [
+          112,
+          112,
+          931
+        ],
+        [
+          128,
+          128,
+          940
+        ],
+        [
+          144,
+          144,
+          940
+        ],
+        [
+          160,
+          160,
+          940
+        ],
+        [
+          176,
+          176,
+          940
+        ],
+        [
+          192,
+          192,
+          931
+        ],
+        [
+          208,
+          208,
+          931
+        ],
+        [
+          224,
+          224,
+          931
+        ],
+        [
+          240,
+          240,
+          940
+        ],
+        [
+          256,
+          256,
+          940
+        ],
+        [
+          272,
+          272,
+          940
+        ],
+        [
+          288,
+          288,
+          940
+        ],
+        [
+          304,
+          304,
+          931
+        ],
+        [
+          320,
+          320,
+          931
+        ],
+        [
+          336,
+          336,
+          931
+        ],
+        [
+          352,
+          352,
+          940
+        ],
+        [
+          368,
+          368,
+          940
+        ],
+        [
+          384,
+          384,
+          940
+        ],
+        [
+          400,
+          400,
+          940
+        ],
+        [
+          416,
+          416,
+          931
+        ],
+        [
+          432,
+          432,
+          931
+        ],
+        [
+          448,
+          448,
+          931
+        ],
+        [
+          464,
+          464,
+          940
+        ],
+        [
+          480,
+          480,
+          940
+        ],
+        [
+          496,
+          496,
+          940
+        ],
+        [
+          512,
+          512,
+          940
+        ],
+        [
+          528,
+          528,
+          931
+        ],
+        [
+          544,
+          544,
+          931
+        ],
+        [
+          560,
+          560,
+          931
+        ],
+        [
+          576,
+          576,
+          940
+        ],
+        [
+          592,
+          592,
+          940
+        ],
+        [
+          608,
+          608,
+          940
+        ],
+        [
+          624,
+          624,
+          940
+        ],
+        [
+          640,
+          640,
+          931
+        ],
+        [
+          656,
+          656,
+          931
+        ],
+        [
+          672,
+          672,
+          931
+        ],
+        [
+          688,
+          688,
+          940
+        ],
+        [
+          704,
+          704,
+          940
+        ],
+        [
+          720,
+          720,
+          940
+        ],
+        [
+          736,
+          736,
+          940
+        ],
+        [
+          752,
+          752,
+          931
+        ],
+        [
+          768,
+          768,
+          931
+        ],
+        [
+          784,
+          784,
+          931
+        ],
+        [
+          800,
+          800,
+          940
+        ],
+        [
+          816,
+          816,
+          940
+        ],
+        [
+          832,
+          832,
+          940
+        ],
+        [
+          848,
+          848,
+          940
+        ],
+        [
+          864,
+          864,
+          931
+        ],
+        [
+          880,
+          880,
+          931
+        ],
+        [
+          896,
+          896,
+          931
+        ],
+        [
+          912,
+          912,
+          940
+        ],
+        [
+          928,
+          928,
+          940
+        ],
+        [
+          944,
+          944,
+          940
+        ],
+        [
+          960,
+          960,
+          940
+        ],
+        [
+          976,
+          976,
+          931
+        ],
+        [
+          992,
+          992,
+          931
+        ],
+        [
+          1008,
+          1008,
+          931
+        ],
+        [
+          1024,
+          1024,
+          940
+        ],
+        [
+          1040,
+          1040,
+          940
+        ],
+        [
+          1056,
+          1056,
+          940
+        ],
+        [
+          1072,
+          1072,
+          940
+        ],
+        [
+          1088,
+          1088,
+          931
+        ],
+        [
+          1104,
+          1104,
+          931
+        ],
+        [
+          1120,
+          1120,
+          931
+        ],
+        [
+          1136,
+          1136,
+          940
+        ],
+        [
+          1152,
+          1152,
+          940
+        ],
+        [
+          1168,
+          1168,
+          940
+        ],
+        [
+          1184,
+          1184,
+          940
+        ],
+        [
+          1200,
+          1200,
+          931
+        ],
+        [
+          1216,
+          1216,
+          931
+        ],
+        [
+          1232,
+          1232,
+          931
+        ],
+        [
+          1248,
+          1248,
+          940
+        ],
+        [
+          1264,
+          1264,
+          940
+        ],
+        [
+          1280,
+          1280,
+          940
+        ],
+        [
+          1296,
+          1296,
+          940
+        ],
+        [
+          1312,
+          1312,
+          931
+        ],
+        [
+          1328,
+          1328,
+          931
+        ],
+        [
+          1344,
+          1344,
+          931
+        ],
+        [
+          1360,
+          1360,
+          940
+        ],
+        [
+          1376,
+          1376,
+          940
+        ],
+        [
+          1392,
+          1392,
+          940
+        ],
+        [
+          1408,
+          1408,
+          940
+        ],
+        [
+          1424,
+          1424,
+          940
+        ],
+        [
+          1440,
+          1440,
+          940
+        ],
+        [
+          1456,
+          1456,
+          940
+        ],
+        [
+          1472,
+          1472,
+          940
+        ],
+        [
+          1488,
+          1488,
+          940
+        ],
+        [
+          1504,
+          1504,
+          940
+        ],
+        [
+          1512,
+          1512,
+          940
+        ]
+      ],
+      "player_end_limits": [
+        16,
+        1512
+      ],
+      "camera_x": [
+        0,
+        1216
+      ],
+      "floor_y": 960,
+      "camera_y": 768,
+      "tileset": "Green Hill",
+      "native_background_layout": "0xD3D48",
+      "status": "passed"
+    },
+    {
+      "room": "bubble-entry",
+      "objects": {
+        "0x1": 1,
+        "0xe0": 4,
+        "0xe1": 1,
+        "0xe2": 8
+      },
+      "floor_samples": [
+        [
+          16,
+          16,
+          940
+        ],
+        [
+          32,
+          32,
+          940
+        ],
+        [
+          48,
+          48,
+          931
+        ],
+        [
+          64,
+          64,
+          931
+        ],
+        [
+          80,
+          80,
+          931
+        ],
+        [
+          96,
+          96,
+          940
+        ],
+        [
+          112,
+          112,
+          931
+        ],
+        [
+          128,
+          128,
+          931
+        ],
+        [
+          144,
+          144,
+          931
+        ],
+        [
+          160,
+          160,
+          940
+        ],
+        [
+          176,
+          176,
+          931
+        ],
+        [
+          192,
+          192,
+          931
+        ],
+        [
+          208,
+          208,
+          931
+        ],
+        [
+          224,
+          224,
+          940
+        ],
+        [
+          240,
+          240,
+          931
+        ],
+        [
+          256,
+          256,
+          931
+        ],
+        [
+          272,
+          272,
+          931
+        ],
+        [
+          288,
+          288,
+          940
+        ],
+        [
+          304,
+          304,
+          940
+        ],
+        [
+          320,
+          320,
+          940
+        ],
+        [
+          336,
+          336,
+          940
+        ],
+        [
+          352,
+          352,
+          940
+        ],
+        [
+          368,
+          368,
+          940
+        ],
+        [
+          384,
+          384,
+          940
+        ],
+        [
+          400,
+          400,
+          940
+        ],
+        [
+          416,
+          416,
+          940
+        ],
+        [
+          432,
+          432,
+          940
+        ],
+        [
+          448,
+          448,
+          940
+        ],
+        [
+          464,
+          464,
+          940
+        ],
+        [
+          480,
+          480,
+          940
+        ],
+        [
+          496,
+          496,
+          940
+        ],
+        [
+          512,
+          512,
+          940
+        ],
+        [
+          528,
+          528,
+          940
+        ],
+        [
+          544,
+          544,
+          940
+        ],
+        [
+          560,
+          560,
+          940
+        ],
+        [
+          576,
+          576,
+          940
+        ],
+        [
+          592,
+          592,
+          940
+        ],
+        [
+          608,
+          608,
+          940
+        ],
+        [
+          624,
+          624,
+          940
+        ],
+        [
+          640,
+          640,
+          940
+        ],
+        [
+          656,
+          656,
+          940
+        ],
+        [
+          672,
+          672,
+          940
+        ],
+        [
+          688,
+          688,
+          940
+        ],
+        [
+          704,
+          704,
+          940
+        ],
+        [
+          720,
+          720,
+          940
+        ],
+        [
+          736,
+          736,
+          940
+        ],
+        [
+          744,
+          744,
+          940
+        ]
+      ],
+      "player_end_limits": [
+        16,
+        744
+      ],
+      "camera_x": [
+        0,
+        448
+      ],
+      "floor_y": 960,
+      "camera_y": 768,
+      "tileset": "Green Hill",
+      "native_background_layout": "0xD3D48",
+      "status": "passed"
+    },
+    {
+      "room": "insertion-entry",
+      "objects": {
+        "0x1": 1,
+        "0xe0": 4,
+        "0xe1": 1,
+        "0xe2": 8
+      },
+      "floor_samples": [
+        [
+          16,
+          16,
+          620
+        ],
+        [
+          32,
+          32,
+          620
+        ],
+        [
+          48,
+          48,
+          611
+        ],
+        [
+          64,
+          64,
+          611
+        ],
+        [
+          80,
+          80,
+          611
+        ],
+        [
+          96,
+          96,
+          620
+        ],
+        [
+          112,
+          112,
+          611
+        ],
+        [
+          128,
+          128,
+          611
+        ],
+        [
+          144,
+          144,
+          611
+        ],
+        [
+          160,
+          160,
+          620
+        ],
+        [
+          176,
+          176,
+          611
+        ],
+        [
+          192,
+          192,
+          611
+        ],
+        [
+          208,
+          208,
+          611
+        ],
+        [
+          224,
+          224,
+          620
+        ],
+        [
+          240,
+          240,
+          611
+        ],
+        [
+          256,
+          256,
+          611
+        ],
+        [
+          272,
+          272,
+          611
+        ],
+        [
+          288,
+          288,
+          620
+        ],
+        [
+          304,
+          304,
+          620
+        ],
+        [
+          320,
+          320,
+          620
+        ],
+        [
+          336,
+          336,
+          620
+        ],
+        [
+          352,
+          352,
+          620
+        ],
+        [
+          368,
+          368,
+          620
+        ],
+        [
+          384,
+          384,
+          620
+        ],
+        [
+          400,
+          400,
+          620
+        ],
+        [
+          416,
+          416,
+          620
+        ],
+        [
+          432,
+          432,
+          620
+        ],
+        [
+          448,
+          448,
+          620
+        ],
+        [
+          464,
+          464,
+          620
+        ],
+        [
+          480,
+          480,
+          620
+        ],
+        [
+          496,
+          496,
+          620
+        ],
+        [
+          512,
+          512,
+          620
+        ],
+        [
+          528,
+          528,
+          620
+        ],
+        [
+          544,
+          544,
+          620
+        ],
+        [
+          560,
+          560,
+          620
+        ],
+        [
+          576,
+          576,
+          620
+        ],
+        [
+          592,
+          592,
+          620
+        ],
+        [
+          608,
+          608,
+          620
+        ],
+        [
+          624,
+          624,
+          620
+        ],
+        [
+          640,
+          640,
+          620
+        ],
+        [
+          656,
+          656,
+          620
+        ],
+        [
+          672,
+          672,
+          620
+        ],
+        [
+          688,
+          688,
+          620
+        ],
+        [
+          704,
+          704,
+          620
+        ],
+        [
+          720,
+          720,
+          620
+        ],
+        [
+          736,
+          736,
+          620
+        ],
+        [
+          744,
+          744,
+          620
+        ]
+      ],
+      "player_end_limits": [
+        16,
+        744
+      ],
+      "camera_x": [
+        0,
+        448
+      ],
+      "floor_y": 640,
+      "camera_y": 448,
+      "tileset": "Marble",
+      "native_background_layout": "0xD429A",
+      "status": "passed"
+    },
+    {
+      "room": "binary-entry",
+      "objects": {
+        "0x1": 1,
+        "0xe0": 4,
+        "0xe1": 1,
+        "0xe2": 8
+      },
+      "floor_samples": [
+        [
+          16,
+          16,
+          620
+        ],
+        [
+          32,
+          32,
+          620
+        ],
+        [
+          48,
+          48,
+          611
+        ],
+        [
+          64,
+          64,
+          611
+        ],
+        [
+          80,
+          80,
+          611
+        ],
+        [
+          96,
+          96,
+          620
+        ],
+        [
+          112,
+          112,
+          611
+        ],
+        [
+          128,
+          128,
+          611
+        ],
+        [
+          144,
+          144,
+          611
+        ],
+        [
+          160,
+          160,
+          620
+        ],
+        [
+          176,
+          176,
+          611
+        ],
+        [
+          192,
+          192,
+          611
+        ],
+        [
+          208,
+          208,
+          611
+        ],
+        [
+          224,
+          224,
+          620
+        ],
+        [
+          240,
+          240,
+          611
+        ],
+        [
+          256,
+          256,
+          611
+        ],
+        [
+          272,
+          272,
+          611
+        ],
+        [
+          288,
+          288,
+          620
+        ],
+        [
+          304,
+          304,
+          620
+        ],
+        [
+          320,
+          320,
+          620
+        ],
+        [
+          336,
+          336,
+          620
+        ],
+        [
+          352,
+          352,
+          620
+        ],
+        [
+          368,
+          368,
+          620
+        ],
+        [
+          384,
+          384,
+          620
+        ],
+        [
+          400,
+          400,
+          620
+        ],
+        [
+          416,
+          416,
+          620
+        ],
+        [
+          432,
+          432,
+          620
+        ],
+        [
+          448,
+          448,
+          620
+        ],
+        [
+          464,
+          464,
+          620
+        ],
+        [
+          480,
+          480,
+          620
+        ],
+        [
+          496,
+          496,
+          620
+        ],
+        [
+          512,
+          512,
+          620
+        ],
+        [
+          528,
+          528,
+          620
+        ],
+        [
+          544,
+          544,
+          620
+        ],
+        [
+          560,
+          560,
+          620
+        ],
+        [
+          576,
+          576,
+          620
+        ],
+        [
+          592,
+          592,
+          620
+        ],
+        [
+          608,
+          608,
+          620
+        ],
+        [
+          624,
+          624,
+          620
+        ],
+        [
+          640,
+          640,
+          620
+        ],
+        [
+          656,
+          656,
+          620
+        ],
+        [
+          672,
+          672,
+          620
+        ],
+        [
+          688,
+          688,
+          620
+        ],
+        [
+          704,
+          704,
+          620
+        ],
+        [
+          720,
+          720,
+          620
+        ],
+        [
+          736,
+          736,
+          620
+        ],
+        [
+          744,
+          744,
+          620
+        ]
+      ],
+      "player_end_limits": [
+        16,
+        744
+      ],
+      "camera_x": [
+        0,
+        448
+      ],
+      "floor_y": 640,
+      "camera_y": 448,
+      "tileset": "Spring Yard",
+      "native_background_layout": "0xD4A4E",
+      "status": "passed"
+    },
+    {
+      "room": "bfs-entry",
+      "objects": {
+        "0x1": 1,
+        "0xe0": 4,
+        "0xe1": 1,
+        "0xe2": 8
+      },
+      "floor_samples": [
+        [
+          16,
+          16,
+          620
+        ],
+        [
+          32,
+          32,
+          620
+        ],
+        [
+          48,
+          48,
+          611
+        ],
+        [
+          64,
+          64,
+          611
+        ],
+        [
+          80,
+          80,
+          611
+        ],
+        [
+          96,
+          96,
+          620
+        ],
+        [
+          112,
+          112,
+          611
+        ],
+        [
+          128,
+          128,
+          611
+        ],
+        [
+          144,
+          144,
+          611
+        ],
+        [
+          160,
+          160,
+          620
+        ],
+        [
+          176,
+          176,
+          611
+        ],
+        [
+          192,
+          192,
+          611
+        ],
+        [
+          208,
+          208,
+          611
+        ],
+        [
+          224,
+          224,
+          620
+        ],
+        [
+          240,
+          240,
+          611
+        ],
+        [
+          256,
+          256,
+          611
+        ],
+        [
+          272,
+          272,
+          611
+        ],
+        [
+          288,
+          288,
+          620
+        ],
+        [
+          304,
+          304,
+          620
+        ],
+        [
+          320,
+          320,
+          620
+        ],
+        [
+          336,
+          336,
+          620
+        ],
+        [
+          352,
+          352,
+          620
+        ],
+        [
+          368,
+          368,
+          620
+        ],
+        [
+          384,
+          384,
+          620
+        ],
+        [
+          400,
+          400,
+          620
+        ],
+        [
+          416,
+          416,
+          620
+        ],
+        [
+          432,
+          432,
+          620
+        ],
+        [
+          448,
+          448,
+          620
+        ],
+        [
+          464,
+          464,
+          620
+        ],
+        [
+          480,
+          480,
+          620
+        ],
+        [
+          496,
+          496,
+          620
+        ],
+        [
+          512,
+          512,
+          620
+        ],
+        [
+          528,
+          528,
+          620
+        ],
+        [
+          544,
+          544,
+          620
+        ],
+        [
+          560,
+          560,
+          620
+        ],
+        [
+          576,
+          576,
+          620
+        ],
+        [
+          592,
+          592,
+          620
+        ],
+        [
+          608,
+          608,
+          620
+        ],
+        [
+          624,
+          624,
+          620
+        ],
+        [
+          640,
+          640,
+          620
+        ],
+        [
+          656,
+          656,
+          620
+        ],
+        [
+          672,
+          672,
+          620
+        ],
+        [
+          688,
+          688,
+          620
+        ],
+        [
+          704,
+          704,
+          620
+        ],
+        [
+          720,
+          720,
+          620
+        ],
+        [
+          736,
+          736,
+          620
+        ],
+        [
+          744,
+          744,
+          620
+        ]
+      ],
+      "player_end_limits": [
+        16,
+        744
+      ],
+      "camera_x": [
+        0,
+        448
+      ],
+      "floor_y": 640,
+      "camera_y": 448,
+      "tileset": "Labyrinth",
+      "native_background_layout": "0xD3E78",
+      "status": "passed"
+    },
+    {
+      "room": "priority-entry",
+      "objects": {
+        "0x1": 1,
+        "0xe0": 4,
+        "0xe1": 1,
+        "0xe2": 8
+      },
+      "floor_samples": [
+        [
+          16,
+          16,
+          620
+        ],
+        [
+          32,
+          32,
+          620
+        ],
+        [
+          48,
+          48,
+          611
+        ],
+        [
+          64,
+          64,
+          611
+        ],
+        [
+          80,
+          80,
+          611
+        ],
+        [
+          96,
+          96,
+          620
+        ],
+        [
+          112,
+          112,
+          611
+        ],
+        [
+          128,
+          128,
+          611
+        ],
+        [
+          144,
+          144,
+          611
+        ],
+        [
+          160,
+          160,
+          620
+        ],
+        [
+          176,
+          176,
+          611
+        ],
+        [
+          192,
+          192,
+          611
+        ],
+        [
+          208,
+          208,
+          611
+        ],
+        [
+          224,
+          224,
+          620
+        ],
+        [
+          240,
+          240,
+          611
+        ],
+        [
+          256,
+          256,
+          611
+        ],
+        [
+          272,
+          272,
+          611
+        ],
+        [
+          288,
+          288,
+          620
+        ],
+        [
+          304,
+          304,
+          620
+        ],
+        [
+          320,
+          320,
+          620
+        ],
+        [
+          336,
+          336,
+          620
+        ],
+        [
+          352,
+          352,
+          620
+        ],
+        [
+          368,
+          368,
+          620
+        ],
+        [
+          384,
+          384,
+          620
+        ],
+        [
+          400,
+          400,
+          620
+        ],
+        [
+          416,
+          416,
+          620
+        ],
+        [
+          432,
+          432,
+          620
+        ],
+        [
+          448,
+          448,
+          620
+        ],
+        [
+          464,
+          464,
+          620
+        ],
+        [
+          480,
+          480,
+          620
+        ],
+        [
+          496,
+          496,
+          620
+        ],
+        [
+          512,
+          512,
+          620
+        ],
+        [
+          528,
+          528,
+          620
+        ],
+        [
+          544,
+          544,
+          620
+        ],
+        [
+          560,
+          560,
+          620
+        ],
+        [
+          576,
+          576,
+          620
+        ],
+        [
+          592,
+          592,
+          620
+        ],
+        [
+          608,
+          608,
+          620
+        ],
+        [
+          624,
+          624,
+          620
+        ],
+        [
+          640,
+          640,
+          620
+        ],
+        [
+          656,
+          656,
+          620
+        ],
+        [
+          672,
+          672,
+          620
+        ],
+        [
+          688,
+          688,
+          620
+        ],
+        [
+          704,
+          704,
+          620
+        ],
+        [
+          720,
+          720,
+          620
+        ],
+        [
+          736,
+          736,
+          620
+        ],
+        [
+          744,
+          744,
+          620
+        ]
+      ],
+      "player_end_limits": [
+        16,
+        744
+      ],
+      "camera_x": [
+        0,
+        448
+      ],
+      "floor_y": 640,
+      "camera_y": 448,
+      "tileset": "Star Light",
+      "native_background_layout": "0xD46FE",
+      "status": "passed"
+    },
+    {
+      "room": "first-fit-entry",
+      "objects": {
+        "0x1": 1,
+        "0xe0": 4,
+        "0xe1": 1,
+        "0xe2": 8
+      },
+      "floor_samples": [
+        [
+          16,
+          16,
+          620
+        ],
+        [
+          32,
+          32,
+          620
+        ],
+        [
+          48,
+          48,
+          611
+        ],
+        [
+          64,
+          64,
+          611
+        ],
+        [
+          80,
+          80,
+          611
+        ],
+        [
+          96,
+          96,
+          620
+        ],
+        [
+          112,
+          112,
+          611
+        ],
+        [
+          128,
+          128,
+          611
+        ],
+        [
+          144,
+          144,
+          611
+        ],
+        [
+          160,
+          160,
+          620
+        ],
+        [
+          176,
+          176,
+          611
+        ],
+        [
+          192,
+          192,
+          611
+        ],
+        [
+          208,
+          208,
+          611
+        ],
+        [
+          224,
+          224,
+          620
+        ],
+        [
+          240,
+          240,
+          611
+        ],
+        [
+          256,
+          256,
+          611
+        ],
+        [
+          272,
+          272,
+          611
+        ],
+        [
+          288,
+          288,
+          620
+        ],
+        [
+          304,
+          304,
+          620
+        ],
+        [
+          320,
+          320,
+          620
+        ],
+        [
+          336,
+          336,
+          620
+        ],
+        [
+          352,
+          352,
+          620
+        ],
+        [
+          368,
+          368,
+          620
+        ],
+        [
+          384,
+          384,
+          620
+        ],
+        [
+          400,
+          400,
+          620
+        ],
+        [
+          416,
+          416,
+          620
+        ],
+        [
+          432,
+          432,
+          620
+        ],
+        [
+          448,
+          448,
+          620
+        ],
+        [
+          464,
+          464,
+          620
+        ],
+        [
+          480,
+          480,
+          620
+        ],
+        [
+          496,
+          496,
+          620
+        ],
+        [
+          512,
+          512,
+          620
+        ],
+        [
+          528,
+          528,
+          620
+        ],
+        [
+          544,
+          544,
+          620
+        ],
+        [
+          560,
+          560,
+          620
+        ],
+        [
+          576,
+          576,
+          620
+        ],
+        [
+          592,
+          592,
+          620
+        ],
+        [
+          608,
+          608,
+          620
+        ],
+        [
+          624,
+          624,
+          620
+        ],
+        [
+          640,
+          640,
+          620
+        ],
+        [
+          656,
+          656,
+          620
+        ],
+        [
+          672,
+          672,
+          620
+        ],
+        [
+          688,
+          688,
+          620
+        ],
+        [
+          704,
+          704,
+          620
+        ],
+        [
+          720,
+          720,
+          620
+        ],
+        [
+          736,
+          736,
+          620
+        ],
+        [
+          744,
+          744,
+          620
+        ]
+      ],
+      "player_end_limits": [
+        16,
+        744
+      ],
+      "camera_x": [
+        0,
+        448
+      ],
+      "floor_y": 640,
+      "camera_y": 448,
+      "tileset": "Scrap Brain",
+      "native_background_layout": "0xD4E1C",
+      "status": "passed"
+    },
+    {
+      "room": "selection-entry",
+      "objects": {
+        "0x1": 1,
+        "0xe0": 4,
+        "0xe1": 1,
+        "0xe2": 8
+      },
+      "floor_samples": [
+        [
+          16,
+          16,
+          940
+        ],
+        [
+          32,
+          32,
+          940
+        ],
+        [
+          48,
+          48,
+          931
+        ],
+        [
+          64,
+          64,
+          931
+        ],
+        [
+          80,
+          80,
+          931
+        ],
+        [
+          96,
+          96,
+          940
+        ],
+        [
+          112,
+          112,
+          931
+        ],
+        [
+          128,
+          128,
+          931
+        ],
+        [
+          144,
+          144,
+          931
+        ],
+        [
+          160,
+          160,
+          940
+        ],
+        [
+          176,
+          176,
+          931
+        ],
+        [
+          192,
+          192,
+          931
+        ],
+        [
+          208,
+          208,
+          931
+        ],
+        [
+          224,
+          224,
+          940
+        ],
+        [
+          240,
+          240,
+          931
+        ],
+        [
+          256,
+          256,
+          931
+        ],
+        [
+          272,
+          272,
+          931
+        ],
+        [
+          288,
+          288,
+          940
+        ],
+        [
+          304,
+          304,
+          940
+        ],
+        [
+          320,
+          320,
+          940
+        ],
+        [
+          336,
+          336,
+          940
+        ],
+        [
+          352,
+          352,
+          940
+        ],
+        [
+          368,
+          368,
+          940
+        ],
+        [
+          384,
+          384,
+          940
+        ],
+        [
+          400,
+          400,
+          940
+        ],
+        [
+          416,
+          416,
+          940
+        ],
+        [
+          432,
+          432,
+          940
+        ],
+        [
+          448,
+          448,
+          940
+        ],
+        [
+          464,
+          464,
+          940
+        ],
+        [
+          480,
+          480,
+          940
+        ],
+        [
+          496,
+          496,
+          940
+        ],
+        [
+          512,
+          512,
+          940
+        ],
+        [
+          528,
+          528,
+          940
+        ],
+        [
+          544,
+          544,
+          940
+        ],
+        [
+          560,
+          560,
+          940
+        ],
+        [
+          576,
+          576,
+          940
+        ],
+        [
+          592,
+          592,
+          940
+        ],
+        [
+          608,
+          608,
+          940
+        ],
+        [
+          624,
+          624,
+          940
+        ],
+        [
+          640,
+          640,
+          940
+        ],
+        [
+          656,
+          656,
+          940
+        ],
+        [
+          672,
+          672,
+          940
+        ],
+        [
+          688,
+          688,
+          940
+        ],
+        [
+          704,
+          704,
+          940
+        ],
+        [
+          720,
+          720,
+          940
+        ],
+        [
+          736,
+          736,
+          940
+        ],
+        [
+          744,
+          744,
+          940
+        ]
+      ],
+      "player_end_limits": [
+        16,
+        744
+      ],
+      "camera_x": [
+        0,
+        448
+      ],
+      "floor_y": 960,
+      "camera_y": 768,
+      "tileset": "Green Hill",
+      "native_background_layout": "0xD3D48",
+      "status": "passed"
+    },
+    {
+      "room": "odd-even-entry",
+      "objects": {
+        "0x1": 1,
+        "0xe0": 4,
+        "0xe1": 1,
+        "0xe2": 8
+      },
+      "floor_samples": [
+        [
+          16,
+          16,
+          620
+        ],
+        [
+          32,
+          32,
+          620
+        ],
+        [
+          48,
+          48,
+          611
+        ],
+        [
+          64,
+          64,
+          611
+        ],
+        [
+          80,
+          80,
+          611
+        ],
+        [
+          96,
+          96,
+          620
+        ],
+        [
+          112,
+          112,
+          611
+        ],
+        [
+          128,
+          128,
+          611
+        ],
+        [
+          144,
+          144,
+          611
+        ],
+        [
+          160,
+          160,
+          620
+        ],
+        [
+          176,
+          176,
+          611
+        ],
+        [
+          192,
+          192,
+          611
+        ],
+        [
+          208,
+          208,
+          611
+        ],
+        [
+          224,
+          224,
+          620
+        ],
+        [
+          240,
+          240,
+          611
+        ],
+        [
+          256,
+          256,
+          611
+        ],
+        [
+          272,
+          272,
+          611
+        ],
+        [
+          288,
+          288,
+          620
+        ],
+        [
+          304,
+          304,
+          620
+        ],
+        [
+          320,
+          320,
+          620
+        ],
+        [
+          336,
+          336,
+          620
+        ],
+        [
+          352,
+          352,
+          620
+        ],
+        [
+          368,
+          368,
+          620
+        ],
+        [
+          384,
+          384,
+          620
+        ],
+        [
+          400,
+          400,
+          620
+        ],
+        [
+          416,
+          416,
+          620
+        ],
+        [
+          432,
+          432,
+          620
+        ],
+        [
+          448,
+          448,
+          620
+        ],
+        [
+          464,
+          464,
+          620
+        ],
+        [
+          480,
+          480,
+          620
+        ],
+        [
+          496,
+          496,
+          620
+        ],
+        [
+          512,
+          512,
+          620
+        ],
+        [
+          528,
+          528,
+          620
+        ],
+        [
+          544,
+          544,
+          620
+        ],
+        [
+          560,
+          560,
+          620
+        ],
+        [
+          576,
+          576,
+          620
+        ],
+        [
+          592,
+          592,
+          620
+        ],
+        [
+          608,
+          608,
+          620
+        ],
+        [
+          624,
+          624,
+          620
+        ],
+        [
+          640,
+          640,
+          620
+        ],
+        [
+          656,
+          656,
+          620
+        ],
+        [
+          672,
+          672,
+          620
+        ],
+        [
+          688,
+          688,
+          620
+        ],
+        [
+          704,
+          704,
+          620
+        ],
+        [
+          720,
+          720,
+          620
+        ],
+        [
+          736,
+          736,
+          620
+        ],
+        [
+          744,
+          744,
+          620
+        ]
+      ],
+      "player_end_limits": [
+        16,
+        744
+      ],
+      "camera_x": [
+        0,
+        448
+      ],
+      "floor_y": 640,
+      "camera_y": 448,
+      "tileset": "Marble",
+      "native_background_layout": "0xD43C0",
+      "status": "passed"
+    },
+    {
+      "room": "merge-entry",
+      "objects": {
+        "0x1": 1,
+        "0xe0": 4,
+        "0xe1": 1,
+        "0xe2": 8
+      },
+      "floor_samples": [
+        [
+          16,
+          16,
+          620
+        ],
+        [
+          32,
+          32,
+          620
+        ],
+        [
+          48,
+          48,
+          611
+        ],
+        [
+          64,
+          64,
+          611
+        ],
+        [
+          80,
+          80,
+          611
+        ],
+        [
+          96,
+          96,
+          620
+        ],
+        [
+          112,
+          112,
+          611
+        ],
+        [
+          128,
+          128,
+          611
+        ],
+        [
+          144,
+          144,
+          611
+        ],
+        [
+          160,
+          160,
+          620
+        ],
+        [
+          176,
+          176,
+          611
+        ],
+        [
+          192,
+          192,
+          611
+        ],
+        [
+          208,
+          208,
+          611
+        ],
+        [
+          224,
+          224,
+          620
+        ],
+        [
+          240,
+          240,
+          611
+        ],
+        [
+          256,
+          256,
+          611
+        ],
+        [
+          272,
+          272,
+          611
+        ],
+        [
+          288,
+          288,
+          620
+        ],
+        [
+          304,
+          304,
+          620
+        ],
+        [
+          320,
+          320,
+          620
+        ],
+        [
+          336,
+          336,
+          620
+        ],
+        [
+          352,
+          352,
+          620
+        ],
+        [
+          368,
+          368,
+          620
+        ],
+        [
+          384,
+          384,
+          620
+        ],
+        [
+          400,
+          400,
+          620
+        ],
+        [
+          416,
+          416,
+          620
+        ],
+        [
+          432,
+          432,
+          620
+        ],
+        [
+          448,
+          448,
+          620
+        ],
+        [
+          464,
+          464,
+          620
+        ],
+        [
+          480,
+          480,
+          620
+        ],
+        [
+          496,
+          496,
+          620
+        ],
+        [
+          512,
+          512,
+          620
+        ],
+        [
+          528,
+          528,
+          620
+        ],
+        [
+          544,
+          544,
+          620
+        ],
+        [
+          560,
+          560,
+          620
+        ],
+        [
+          576,
+          576,
+          620
+        ],
+        [
+          592,
+          592,
+          620
+        ],
+        [
+          608,
+          608,
+          620
+        ],
+        [
+          624,
+          624,
+          620
+        ],
+        [
+          640,
+          640,
+          620
+        ],
+        [
+          656,
+          656,
+          620
+        ],
+        [
+          672,
+          672,
+          620
+        ],
+        [
+          688,
+          688,
+          620
+        ],
+        [
+          704,
+          704,
+          620
+        ],
+        [
+          720,
+          720,
+          620
+        ],
+        [
+          736,
+          736,
+          620
+        ],
+        [
+          744,
+          744,
+          620
+        ]
+      ],
+      "player_end_limits": [
+        16,
+        744
+      ],
+      "camera_x": [
+        0,
+        448
+      ],
+      "floor_y": 640,
+      "camera_y": 448,
+      "tileset": "Spring Yard",
+      "native_background_layout": "0xD4A4E",
+      "status": "passed"
+    },
+    {
+      "room": "quick-entry",
+      "objects": {
+        "0x1": 1,
+        "0xe0": 4,
+        "0xe1": 1,
+        "0xe2": 8
+      },
+      "floor_samples": [
+        [
+          16,
+          16,
+          620
+        ],
+        [
+          32,
+          32,
+          620
+        ],
+        [
+          48,
+          48,
+          611
+        ],
+        [
+          64,
+          64,
+          611
+        ],
+        [
+          80,
+          80,
+          611
+        ],
+        [
+          96,
+          96,
+          620
+        ],
+        [
+          112,
+          112,
+          611
+        ],
+        [
+          128,
+          128,
+          611
+        ],
+        [
+          144,
+          144,
+          611
+        ],
+        [
+          160,
+          160,
+          620
+        ],
+        [
+          176,
+          176,
+          611
+        ],
+        [
+          192,
+          192,
+          611
+        ],
+        [
+          208,
+          208,
+          611
+        ],
+        [
+          224,
+          224,
+          620
+        ],
+        [
+          240,
+          240,
+          611
+        ],
+        [
+          256,
+          256,
+          611
+        ],
+        [
+          272,
+          272,
+          611
+        ],
+        [
+          288,
+          288,
+          620
+        ],
+        [
+          304,
+          304,
+          620
+        ],
+        [
+          320,
+          320,
+          620
+        ],
+        [
+          336,
+          336,
+          620
+        ],
+        [
+          352,
+          352,
+          620
+        ],
+        [
+          368,
+          368,
+          620
+        ],
+        [
+          384,
+          384,
+          620
+        ],
+        [
+          400,
+          400,
+          620
+        ],
+        [
+          416,
+          416,
+          620
+        ],
+        [
+          432,
+          432,
+          620
+        ],
+        [
+          448,
+          448,
+          620
+        ],
+        [
+          464,
+          464,
+          620
+        ],
+        [
+          480,
+          480,
+          620
+        ],
+        [
+          496,
+          496,
+          620
+        ],
+        [
+          512,
+          512,
+          620
+        ],
+        [
+          528,
+          528,
+          620
+        ],
+        [
+          544,
+          544,
+          620
+        ],
+        [
+          560,
+          560,
+          620
+        ],
+        [
+          576,
+          576,
+          620
+        ],
+        [
+          592,
+          592,
+          620
+        ],
+        [
+          608,
+          608,
+          620
+        ],
+        [
+          624,
+          624,
+          620
+        ],
+        [
+          640,
+          640,
+          620
+        ],
+        [
+          656,
+          656,
+          620
+        ],
+        [
+          672,
+          672,
+          620
+        ],
+        [
+          688,
+          688,
+          620
+        ],
+        [
+          704,
+          704,
+          620
+        ],
+        [
+          720,
+          720,
+          620
+        ],
+        [
+          736,
+          736,
+          620
+        ],
+        [
+          744,
+          744,
+          620
+        ]
+      ],
+      "player_end_limits": [
+        16,
+        744
+      ],
+      "camera_x": [
+        0,
+        448
+      ],
+      "floor_y": 640,
+      "camera_y": 448,
+      "tileset": "Labyrinth",
+      "native_background_layout": "0xD3E78",
+      "status": "passed"
+    },
+    {
+      "room": "heap-entry",
+      "objects": {
+        "0x1": 1,
+        "0xe0": 4,
+        "0xe1": 1,
+        "0xe2": 8
+      },
+      "floor_samples": [
+        [
+          16,
+          16,
+          620
+        ],
+        [
+          32,
+          32,
+          620
+        ],
+        [
+          48,
+          48,
+          611
+        ],
+        [
+          64,
+          64,
+          611
+        ],
+        [
+          80,
+          80,
+          611
+        ],
+        [
+          96,
+          96,
+          620
+        ],
+        [
+          112,
+          112,
+          611
+        ],
+        [
+          128,
+          128,
+          611
+        ],
+        [
+          144,
+          144,
+          611
+        ],
+        [
+          160,
+          160,
+          620
+        ],
+        [
+          176,
+          176,
+          611
+        ],
+        [
+          192,
+          192,
+          611
+        ],
+        [
+          208,
+          208,
+          611
+        ],
+        [
+          224,
+          224,
+          620
+        ],
+        [
+          240,
+          240,
+          611
+        ],
+        [
+          256,
+          256,
+          611
+        ],
+        [
+          272,
+          272,
+          611
+        ],
+        [
+          288,
+          288,
+          620
+        ],
+        [
+          304,
+          304,
+          620
+        ],
+        [
+          320,
+          320,
+          620
+        ],
+        [
+          336,
+          336,
+          620
+        ],
+        [
+          352,
+          352,
+          620
+        ],
+        [
+          368,
+          368,
+          620
+        ],
+        [
+          384,
+          384,
+          620
+        ],
+        [
+          400,
+          400,
+          620
+        ],
+        [
+          416,
+          416,
+          620
+        ],
+        [
+          432,
+          432,
+          620
+        ],
+        [
+          448,
+          448,
+          620
+        ],
+        [
+          464,
+          464,
+          620
+        ],
+        [
+          480,
+          480,
+          620
+        ],
+        [
+          496,
+          496,
+          620
+        ],
+        [
+          512,
+          512,
+          620
+        ],
+        [
+          528,
+          528,
+          620
+        ],
+        [
+          544,
+          544,
+          620
+        ],
+        [
+          560,
+          560,
+          620
+        ],
+        [
+          576,
+          576,
+          620
+        ],
+        [
+          592,
+          592,
+          620
+        ],
+        [
+          608,
+          608,
+          620
+        ],
+        [
+          624,
+          624,
+          620
+        ],
+        [
+          640,
+          640,
+          620
+        ],
+        [
+          656,
+          656,
+          620
+        ],
+        [
+          672,
+          672,
+          620
+        ],
+        [
+          688,
+          688,
+          620
+        ],
+        [
+          704,
+          704,
+          620
+        ],
+        [
+          720,
+          720,
+          620
+        ],
+        [
+          736,
+          736,
+          620
+        ],
+        [
+          744,
+          744,
+          620
+        ]
+      ],
+      "player_end_limits": [
+        16,
+        744
+      ],
+      "camera_x": [
+        0,
+        448
+      ],
+      "floor_y": 640,
+      "camera_y": 448,
+      "tileset": "Star Light",
+      "native_background_layout": "0xD46FE",
+      "status": "passed"
+    },
+    {
+      "room": "linear-entry",
+      "objects": {
+        "0x1": 1,
+        "0xe0": 4,
+        "0xe1": 1,
+        "0xe2": 8
+      },
+      "floor_samples": [
+        [
+          16,
+          16,
+          620
+        ],
+        [
+          32,
+          32,
+          620
+        ],
+        [
+          48,
+          48,
+          611
+        ],
+        [
+          64,
+          64,
+          611
+        ],
+        [
+          80,
+          80,
+          611
+        ],
+        [
+          96,
+          96,
+          620
+        ],
+        [
+          112,
+          112,
+          611
+        ],
+        [
+          128,
+          128,
+          611
+        ],
+        [
+          144,
+          144,
+          611
+        ],
+        [
+          160,
+          160,
+          620
+        ],
+        [
+          176,
+          176,
+          611
+        ],
+        [
+          192,
+          192,
+          611
+        ],
+        [
+          208,
+          208,
+          611
+        ],
+        [
+          224,
+          224,
+          620
+        ],
+        [
+          240,
+          240,
+          611
+        ],
+        [
+          256,
+          256,
+          611
+        ],
+        [
+          272,
+          272,
+          611
+        ],
+        [
+          288,
+          288,
+          620
+        ],
+        [
+          304,
+          304,
+          620
+        ],
+        [
+          320,
+          320,
+          620
+        ],
+        [
+          336,
+          336,
+          620
+        ],
+        [
+          352,
+          352,
+          620
+        ],
+        [
+          368,
+          368,
+          620
+        ],
+        [
+          384,
+          384,
+          620
+        ],
+        [
+          400,
+          400,
+          620
+        ],
+        [
+          416,
+          416,
+          620
+        ],
+        [
+          432,
+          432,
+          620
+        ],
+        [
+          448,
+          448,
+          620
+        ],
+        [
+          464,
+          464,
+          620
+        ],
+        [
+          480,
+          480,
+          620
+        ],
+        [
+          496,
+          496,
+          620
+        ],
+        [
+          512,
+          512,
+          620
+        ],
+        [
+          528,
+          528,
+          620
+        ],
+        [
+          544,
+          544,
+          620
+        ],
+        [
+          560,
+          560,
+          620
+        ],
+        [
+          576,
+          576,
+          620
+        ],
+        [
+          592,
+          592,
+          620
+        ],
+        [
+          608,
+          608,
+          620
+        ],
+        [
+          624,
+          624,
+          620
+        ],
+        [
+          640,
+          640,
+          620
+        ],
+        [
+          656,
+          656,
+          620
+        ],
+        [
+          672,
+          672,
+          620
+        ],
+        [
+          688,
+          688,
+          620
+        ],
+        [
+          704,
+          704,
+          620
+        ],
+        [
+          720,
+          720,
+          620
+        ],
+        [
+          736,
+          736,
+          620
+        ],
+        [
+          744,
+          744,
+          620
+        ]
+      ],
+      "player_end_limits": [
+        16,
+        744
+      ],
+      "camera_x": [
+        0,
+        448
+      ],
+      "floor_y": 640,
+      "camera_y": 448,
+      "tileset": "Scrap Brain",
+      "native_background_layout": "0xD4FA4",
+      "status": "passed"
+    }
+  ],
+  "audio": {
+    "samples": 88314,
+    "min": -13708,
+    "max": 15706,
+    "sha256": "4a44d9b6bafa5a7bd03ad7eac0b757781927e636d277615b37cd877ac15ef69f",
+    "listening_test": false
+  },
+  "callback_errors": [],
+  "status": "passed",
+  "elapsed_seconds": 116.038
+}

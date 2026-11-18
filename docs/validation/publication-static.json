@@ -1,0 +1,20 @@
+{
+  "rom": "/home/anon/sonic-algorithm-lab/github/native/builds/2026-11-18_22-27-23_343780Z_sage-lab/Sonic Algorithm Lab - SAGE Engine.bin",
+  "core": null,
+  "mode": "static",
+  "static": {
+    "sha256": "bef8ef1a565ddd7a334794417d090c26ad361bd102c69add13114bab265cfc2d",
+    "checksum": "8138",
+    "parent_path": "/home/anon/sonic-hacks-archive/sonic-1-at-sage-2010/Sonic the Hedgehog 1 @ SAGE 2010 (S1 Hack).bin",
+    "parent_sha256": "952955f9a171636862f88bf6f64aa00a049abe5b8aaab7a8e63275bacdf445cd",
+    "changed_bytes": 214112,
+    "patch_count": 53,
+    "source_files": 25,
+    "diff_scope": "passed",
+    "native_asset_provenance": "passed",
+    "completion_sfx": "C5, native act-results cash register"
+  },
+  "controller_playthrough": "not_requested",
+  "status": "passed",
+  "elapsed_seconds": 0.254
+}

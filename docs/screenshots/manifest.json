@@ -1,0 +1,1096 @@
+{
+  "created_utc": "2026-11-18T22:24:59.171521+00:00",
+  "rom": "Sonic Algorithm Lab - SAGE Engine.bin",
+  "rom_sha256": "bef8ef1a565ddd7a334794417d090c26ad361bd102c69add13114bab265cfc2d",
+  "core_sha256": "f2891567622652365ffd5eee6d93e4c8485dc9f441fc7100b6bc549844dc3ad3",
+  "capture_script_sha256": "6487ddbf2f53536b16446620f99b68562c5676835917cb98cb5fe22c13e05926",
+  "method": "Fresh boot; controller input only; RAM read for steering and assertions",
+  "image_processing": "None: PNGs are the native emulator video frames",
+  "screenshots": [
+    {
+      "file": "hub.png",
+      "description": "The Green Hill hub before visiting its twelve stations",
+      "sha256": "e17ac74c36cb8ecc4e000324bfd0a6232bf38f9094eed3e1229a233fb3d73f35",
+      "width": 320,
+      "height": 224,
+      "frame": 900,
+      "state": {
+        "room": 0,
+        "algorithm": 0,
+        "dataset": 0,
+        "running": 0,
+        "done": 0,
+        "phase": 0,
+        "operations": 0,
+        "comparisons": 0,
+        "swaps": 0,
+        "completed": 0,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ids": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "file": "bubble.png",
+      "description": "bubble: an operation in progress on the default input",
+      "sha256": "3acfe2a2a739deed3e063541213b3ca28a5338fd8dfa05c7a6e020fd11abae6a",
+      "width": 320,
+      "height": 224,
+      "frame": 1689,
+      "state": {
+        "room": 1,
+        "algorithm": 0,
+        "dataset": 0,
+        "running": 1,
+        "done": 0,
+        "phase": 3,
+        "operations": 1,
+        "comparisons": 1,
+        "swaps": 0,
+        "completed": 0,
+        "values": [
+          6,
+          3,
+          8,
+          1,
+          5,
+          2,
+          7,
+          4
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "file": "bubble-complete.png",
+      "description": "bubble: completed result on the default input",
+      "sha256": "a8254ae754afe5bac5855a3242c3e2df99ffe189b6a026d51d2715eb6728c104",
+      "width": 320,
+      "height": 224,
+      "frame": 3389,
+      "state": {
+        "room": 1,
+        "algorithm": 0,
+        "dataset": 0,
+        "running": 0,
+        "done": 1,
+        "phase": 0,
+        "operations": 25,
+        "comparisons": 25,
+        "swaps": 15,
+        "completed": 1,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          3,
+          5,
+          1,
+          7,
+          4,
+          0,
+          6,
+          2
+        ]
+      }
+    },
+    {
+      "file": "insertion.png",
+      "description": "insertion: an operation in progress on the default input",
+      "sha256": "2aaffead0c3571f67b95e11dc18aa92db0c93a47dbb6525e1db51bf41a43abd7",
+      "width": 320,
+      "height": 224,
+      "frame": 5076,
+      "state": {
+        "room": 2,
+        "algorithm": 1,
+        "dataset": 0,
+        "running": 1,
+        "done": 0,
+        "phase": 3,
+        "operations": 1,
+        "comparisons": 1,
+        "swaps": 0,
+        "completed": 1,
+        "values": [
+          6,
+          3,
+          8,
+          1,
+          5,
+          2,
+          7,
+          4
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "file": "insertion-complete.png",
+      "description": "insertion: completed result on the default input",
+      "sha256": "5dec56d1615a5e81f621c66bee446812b27c968256d6402b4b4b67099bc8cf9b",
+      "width": 320,
+      "height": 224,
+      "frame": 6476,
+      "state": {
+        "room": 2,
+        "algorithm": 1,
+        "dataset": 0,
+        "running": 0,
+        "done": 1,
+        "phase": 0,
+        "operations": 20,
+        "comparisons": 20,
+        "swaps": 15,
+        "completed": 3,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          3,
+          5,
+          1,
+          7,
+          4,
+          0,
+          6,
+          2
+        ]
+      }
+    },
+    {
+      "file": "binary.png",
+      "description": "binary: an operation in progress on the default input",
+      "sha256": "5f06fa9e8d70eb31f0071fceab4ad54d833599ab28664c5d3eda5a66cc03e339",
+      "width": 320,
+      "height": 224,
+      "frame": 8183,
+      "state": {
+        "room": 3,
+        "algorithm": 2,
+        "dataset": 0,
+        "running": 1,
+        "done": 0,
+        "phase": 4,
+        "operations": 1,
+        "comparisons": 1,
+        "swaps": 0,
+        "completed": 3,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "file": "binary-complete.png",
+      "description": "binary: completed result on the default input",
+      "sha256": "ea480804b49cfc41b2dc4a1a8e01523b4c5fa9cd7266fe27ed5c926a7ae3a463",
+      "width": 320,
+      "height": 224,
+      "frame": 8283,
+      "state": {
+        "room": 3,
+        "algorithm": 2,
+        "dataset": 0,
+        "running": 0,
+        "done": 1,
+        "phase": 0,
+        "operations": 2,
+        "comparisons": 2,
+        "swaps": 0,
+        "completed": 7,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "file": "bfs.png",
+      "description": "bfs: an operation in progress on the default input",
+      "sha256": "105018f60291662f8565cb378f0a0ea0efd09d062de56f1ab87eba0f8239b19b",
+      "width": 320,
+      "height": 224,
+      "frame": 10208,
+      "state": {
+        "room": 4,
+        "algorithm": 3,
+        "dataset": 0,
+        "running": 1,
+        "done": 0,
+        "phase": 4,
+        "operations": 4,
+        "comparisons": 2,
+        "swaps": 3,
+        "completed": 7,
+        "values": [
+          0,
+          1,
+          1,
+          255,
+          255,
+          255,
+          255,
+          255
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "file": "bfs-complete.png",
+      "description": "bfs: completed result on the default input",
+      "sha256": "3752ff3789fe144118d38863f2619cd1b712f3edbcd12c7747da4b9ed5ae7890",
+      "width": 320,
+      "height": 224,
+      "frame": 10808,
+      "state": {
+        "room": 4,
+        "algorithm": 3,
+        "dataset": 0,
+        "running": 0,
+        "done": 1,
+        "phase": 0,
+        "operations": 14,
+        "comparisons": 8,
+        "swaps": 8,
+        "completed": 15,
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          2,
+          3,
+          3
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "file": "priority.png",
+      "description": "priority: an operation in progress on the default input",
+      "sha256": "421eadd1f6174623e9140af20ff61f87f5c67c324d9b715d104d9ed1c0cb8ef9",
+      "width": 320,
+      "height": 224,
+      "frame": 12810,
+      "state": {
+        "room": 5,
+        "algorithm": 4,
+        "dataset": 0,
+        "running": 1,
+        "done": 0,
+        "phase": 4,
+        "operations": 4,
+        "comparisons": 0,
+        "swaps": 0,
+        "completed": 15,
+        "values": [
+          4,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "file": "priority-complete.png",
+      "description": "priority: completed result on the default input",
+      "sha256": "e922accb961c1b4aa7251c846f2e4055980f181ed60a34bcbc09dd663c71d931",
+      "width": 320,
+      "height": 224,
+      "frame": 13310,
+      "state": {
+        "room": 5,
+        "algorithm": 4,
+        "dataset": 0,
+        "running": 0,
+        "done": 1,
+        "phase": 0,
+        "operations": 12,
+        "comparisons": 0,
+        "swaps": 0,
+        "completed": 31,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "file": "first-fit.png",
+      "description": "first-fit: an operation in progress on the default input",
+      "sha256": "c1f711abe856327f93d2a5af22f95597f1cbdfdc1aebeea6175b820e3573e020",
+      "width": 320,
+      "height": 224,
+      "frame": 15386,
+      "state": {
+        "room": 6,
+        "algorithm": 5,
+        "dataset": 0,
+        "running": 1,
+        "done": 0,
+        "phase": 4,
+        "operations": 4,
+        "comparisons": 4,
+        "swaps": 1,
+        "completed": 31,
+        "values": [
+          1,
+          3,
+          2,
+          3,
+          6,
+          0,
+          0,
+          0
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "file": "first-fit-complete.png",
+      "description": "first-fit: completed result on the default input",
+      "sha256": "23ba95c2162ec57858e457cb4557d4f7c517c62d7a69bfa1bc244d98ee33a490",
+      "width": 320,
+      "height": 224,
+      "frame": 15886,
+      "state": {
+        "room": 6,
+        "algorithm": 5,
+        "dataset": 0,
+        "running": 0,
+        "done": 1,
+        "phase": 0,
+        "operations": 13,
+        "comparisons": 13,
+        "swaps": 3,
+        "completed": 63,
+        "values": [
+          0,
+          3,
+          2,
+          3,
+          2,
+          0,
+          0,
+          0
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "file": "selection.png",
+      "description": "selection: an operation in progress on the default input",
+      "sha256": "9147525592839c219d5aeee1e1dee4d402fd841bf6f9720cfcbf824481ec998e",
+      "width": 320,
+      "height": 224,
+      "frame": 17987,
+      "state": {
+        "room": 7,
+        "algorithm": 6,
+        "dataset": 0,
+        "running": 1,
+        "done": 0,
+        "phase": 2,
+        "operations": 3,
+        "comparisons": 3,
+        "swaps": 0,
+        "completed": 63,
+        "values": [
+          6,
+          3,
+          8,
+          1,
+          5,
+          2,
+          7,
+          4
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "file": "selection-complete.png",
+      "description": "selection: completed result on the default input",
+      "sha256": "fbb0ab5afb8e8c66a4c455a4e7a006a3a5143903523547cd11d7573432e0f937",
+      "width": 320,
+      "height": 224,
+      "frame": 19687,
+      "state": {
+        "room": 7,
+        "algorithm": 6,
+        "dataset": 0,
+        "running": 0,
+        "done": 1,
+        "phase": 0,
+        "operations": 33,
+        "comparisons": 28,
+        "swaps": 5,
+        "completed": 127,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          3,
+          5,
+          1,
+          7,
+          4,
+          0,
+          6,
+          2
+        ]
+      }
+    },
+    {
+      "file": "odd-even.png",
+      "description": "odd-even: an operation in progress on the default input",
+      "sha256": "d4651f298a810f714146c1b71417a269d7791d4a84626a517e35f98cd12883a2",
+      "width": 320,
+      "height": 224,
+      "frame": 21814,
+      "state": {
+        "room": 8,
+        "algorithm": 7,
+        "dataset": 0,
+        "running": 1,
+        "done": 0,
+        "phase": 3,
+        "operations": 1,
+        "comparisons": 1,
+        "swaps": 0,
+        "completed": 127,
+        "values": [
+          6,
+          3,
+          8,
+          1,
+          5,
+          2,
+          7,
+          4
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "file": "odd-even-complete.png",
+      "description": "odd-even: completed result on the default input",
+      "sha256": "dd24a9f637fb125b50c33fde5db53582dcc47bc1f22355ea935c95b1ef8fc454",
+      "width": 320,
+      "height": 224,
+      "frame": 23614,
+      "state": {
+        "room": 8,
+        "algorithm": 7,
+        "dataset": 0,
+        "running": 0,
+        "done": 1,
+        "phase": 0,
+        "operations": 28,
+        "comparisons": 28,
+        "swaps": 15,
+        "completed": 255,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          3,
+          5,
+          1,
+          7,
+          4,
+          0,
+          6,
+          2
+        ]
+      }
+    },
+    {
+      "file": "merge.png",
+      "description": "merge: an operation in progress on the default input",
+      "sha256": "295cda0173a8680985aafa53487b9778c0a58ef9cdfa9c076b846dce548d836f",
+      "width": 320,
+      "height": 224,
+      "frame": 25910,
+      "state": {
+        "room": 9,
+        "algorithm": 8,
+        "dataset": 0,
+        "running": 1,
+        "done": 0,
+        "phase": 4,
+        "operations": 4,
+        "comparisons": 2,
+        "swaps": 3,
+        "completed": 255,
+        "values": [
+          3,
+          6,
+          8,
+          1,
+          5,
+          2,
+          7,
+          4
+        ],
+        "ids": [
+          1,
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "file": "merge-complete.png",
+      "description": "merge: completed result on the default input",
+      "sha256": "f6ca3c748ebc660ff541e4bb0985435483fe252442fc30eae20456540aa72d46",
+      "width": 320,
+      "height": 224,
+      "frame": 27010,
+      "state": {
+        "room": 9,
+        "algorithm": 8,
+        "dataset": 0,
+        "running": 0,
+        "done": 1,
+        "phase": 0,
+        "operations": 24,
+        "comparisons": 17,
+        "swaps": 24,
+        "completed": 511,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          3,
+          5,
+          1,
+          7,
+          4,
+          0,
+          6,
+          2
+        ]
+      }
+    },
+    {
+      "file": "quick.png",
+      "description": "quick: an operation in progress on the default input",
+      "sha256": "0f2c4dcdebbfac6840e13f378b170d1599992b0291c09c9d1281a1111fef15eb",
+      "width": 320,
+      "height": 224,
+      "frame": 29332,
+      "state": {
+        "room": 10,
+        "algorithm": 9,
+        "dataset": 0,
+        "running": 1,
+        "done": 0,
+        "phase": 3,
+        "operations": 2,
+        "comparisons": 2,
+        "swaps": 0,
+        "completed": 511,
+        "values": [
+          6,
+          3,
+          8,
+          1,
+          5,
+          2,
+          7,
+          4
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "file": "quick-complete.png",
+      "description": "quick: completed result on the default input",
+      "sha256": "654a6c693ba7d9ff2252ba444fb4523d19fa70c5464cf4493cadcc872751b70f",
+      "width": 320,
+      "height": 224,
+      "frame": 30332,
+      "state": {
+        "room": 10,
+        "algorithm": 9,
+        "dataset": 0,
+        "running": 0,
+        "done": 1,
+        "phase": 0,
+        "operations": 17,
+        "comparisons": 13,
+        "swaps": 7,
+        "completed": 1023,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          3,
+          5,
+          1,
+          7,
+          4,
+          0,
+          6,
+          2
+        ]
+      }
+    },
+    {
+      "file": "heap.png",
+      "description": "heap: an operation in progress on the default input",
+      "sha256": "11645d7eef7f0d33a90bdfa9b9e8d55cea90e3df565a39189a34d5c680c8949a",
+      "width": 320,
+      "height": 224,
+      "frame": 32731,
+      "state": {
+        "room": 11,
+        "algorithm": 10,
+        "dataset": 0,
+        "running": 1,
+        "done": 0,
+        "phase": 3,
+        "operations": 2,
+        "comparisons": 1,
+        "swaps": 0,
+        "completed": 1023,
+        "values": [
+          6,
+          3,
+          8,
+          1,
+          5,
+          2,
+          7,
+          4
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "file": "heap-complete.png",
+      "description": "heap: completed result on the default input",
+      "sha256": "acd309920f06aa22498542da455cdd680e4b03677e4fcd077e2a157f0bac987d",
+      "width": 320,
+      "height": 224,
+      "frame": 35431,
+      "state": {
+        "room": 11,
+        "algorithm": 10,
+        "dataset": 0,
+        "running": 0,
+        "done": 1,
+        "phase": 0,
+        "operations": 45,
+        "comparisons": 26,
+        "swaps": 19,
+        "completed": 2047,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          3,
+          5,
+          1,
+          7,
+          4,
+          0,
+          6,
+          2
+        ]
+      }
+    },
+    {
+      "file": "hub-right.png",
+      "description": "The right end of the hub and the LINEAR station",
+      "sha256": "507ed12079432496f95daf0e25a058a2f5f64aea6da42579bf73999d843915da",
+      "width": 320,
+      "height": 224,
+      "frame": 37130,
+      "state": {
+        "room": 0,
+        "algorithm": 10,
+        "dataset": 0,
+        "running": 0,
+        "done": 1,
+        "phase": 0,
+        "operations": 45,
+        "comparisons": 26,
+        "swaps": 19,
+        "completed": 2047,
+        "values": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ids": [
+          3,
+          5,
+          1,
+          7,
+          4,
+          0,
+          6,
+          2
+        ]
+      }
+    },
+    {
+      "file": "linear.png",
+      "description": "linear: an operation in progress on the default input",
+      "sha256": "37d01858b782d63dd96df083636b75ce4770926d3d8d639ab001a4afad122f72",
+      "width": 320,
+      "height": 224,
+      "frame": 37854,
+      "state": {
+        "room": 12,
+        "algorithm": 11,
+        "dataset": 0,
+        "running": 1,
+        "done": 0,
+        "phase": 4,
+        "operations": 2,
+        "comparisons": 2,
+        "swaps": 0,
+        "completed": 2047,
+        "values": [
+          6,
+          3,
+          8,
+          1,
+          5,
+          2,
+          7,
+          4
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "file": "linear-complete.png",
+      "description": "linear: completed result on the default input",
+      "sha256": "e9c25078d68fff61deabd2eb13bb13f1477c47d525accb06dddae4aa26651b4f",
+      "width": 320,
+      "height": 224,
+      "frame": 38054,
+      "state": {
+        "room": 12,
+        "algorithm": 11,
+        "dataset": 0,
+        "running": 0,
+        "done": 1,
+        "phase": 0,
+        "operations": 5,
+        "comparisons": 5,
+        "swaps": 0,
+        "completed": 4095,
+        "values": [
+          6,
+          3,
+          8,
+          1,
+          5,
+          2,
+          7,
+          4
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "file": "hub-complete.png",
+      "description": "All twelve algorithms completed in one controller-driven tour",
+      "sha256": "1e288cf2c041ded82894b4037de2b20ba4d1e1f7ecc019882804cbbf6eb3b0da",
+      "width": 320,
+      "height": 224,
+      "frame": 38875,
+      "state": {
+        "room": 0,
+        "algorithm": 11,
+        "dataset": 0,
+        "running": 0,
+        "done": 1,
+        "phase": 0,
+        "operations": 5,
+        "comparisons": 5,
+        "swaps": 0,
+        "completed": 4095,
+        "values": [
+          6,
+          3,
+          8,
+          1,
+          5,
+          2,
+          7,
+          4
+        ],
+        "ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    }
+  ],
+  "core": "Genesis Plus GX",
+  "core_version": "v1.7.4 c858c9c",
+  "completed_algorithms": 12,
+  "status": "passed",
+  "elapsed_seconds": 18.222
+}

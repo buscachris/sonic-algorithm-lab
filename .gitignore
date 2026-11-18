@@ -1,0 +1,24 @@
+# Generated assets and build products are recreated from your local template.
+/native/assets/
+/native/builds/
+/native/research/
+/checks/
+/roms/
+/captures/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.bin
+*.rom
+*.mdx
+*.gen
+*.smd
+*.state
+*.sram
+*.sav
+*.zip
+*.wav
+*.log
+.DS_Store

@@ -1,0 +1,11 @@
+{
+  "source_release": "v0.6 with portable tools, 2026-11-18_01-32-55_062634Z_sage-lab",
+  "source_rom_sha256": "bef8ef1a565ddd7a334794417d090c26ad361bd102c69add13114bab265cfc2d",
+  "source_payload_sha256": "5b3bd9546ee2c79244958d8b3d395e064d47809669af96d45b6d248a68a5d6ad",
+  "direct_rom_parent": {
+    "filename": "Sonic the Hedgehog 1 @ SAGE 2010 (S1 Hack).bin",
+    "bytes": 2097152,
+    "sha256": "952955f9a171636862f88bf6f64aa00a049abe5b8aaab7a8e63275bacdf445cd"
+  },
+  "reason": "GitHub source publication of the verified twelve-demo build, with gameplay screenshots and project documentation."
+}

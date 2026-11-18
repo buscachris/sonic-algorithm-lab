@@ -1,0 +1,146 @@
+{
+  "status": "passed",
+  "reference": "/home/anon/sonic-algorithm-lab/workspaces/2026-11-17_expanded-lab/native/builds/2026-11-17_23-26-44_949661Z_sage-lab/Sonic Algorithm Lab - SAGE Engine.bin",
+  "template": "/home/anon/sonic-hacks-archive/sonic-1-at-sage-2010/Sonic the Hedgehog 1 @ SAGE 2010 (S1 Hack).bin",
+  "cases": [
+    {
+      "name": "build-wrong-parent",
+      "passed": true,
+      "returncode": 2,
+      "log": "build-wrong-parent.log"
+    },
+    {
+      "name": "build-wrong-parent-optimized",
+      "passed": true,
+      "returncode": 2,
+      "log": "build-wrong-parent-optimized.log"
+    },
+    {
+      "name": "build-missing-parent",
+      "passed": true,
+      "returncode": 2,
+      "log": "build-missing-parent.log"
+    },
+    {
+      "name": "build-optimized",
+      "passed": true,
+      "returncode": 2,
+      "log": "build-optimized.log"
+    },
+    {
+      "name": "assets-wrong-parent",
+      "passed": true,
+      "returncode": 2,
+      "log": "assets-wrong-parent.log"
+    },
+    {
+      "name": "assets-wrong-parent-optimized",
+      "passed": true,
+      "returncode": 2,
+      "log": "assets-wrong-parent-optimized.log"
+    },
+    {
+      "name": "assets-missing-parent",
+      "passed": true,
+      "returncode": 2,
+      "log": "assets-missing-parent.log"
+    },
+    {
+      "name": "assets-optimized",
+      "passed": true,
+      "returncode": 2,
+      "log": "assets-optimized.log"
+    },
+    {
+      "name": "missing-assembler",
+      "passed": true,
+      "returncode": 2,
+      "log": "missing-assembler.log"
+    },
+    {
+      "name": "build-cli-relative-override",
+      "passed": true,
+      "returncode": 0,
+      "log": "build-cli-relative-override.log"
+    },
+    {
+      "name": "build-env-relative",
+      "passed": true,
+      "returncode": 0,
+      "log": "build-env-relative.log"
+    },
+    {
+      "name": "moved-manifest-needs-template",
+      "passed": true,
+      "returncode": 1,
+      "log": "moved-manifest-needs-template.log"
+    },
+    {
+      "name": "validate-cli-relative-override",
+      "passed": true,
+      "returncode": 0,
+      "log": "validate-cli-relative-override.log"
+    },
+    {
+      "name": "validate-env-relative",
+      "passed": true,
+      "returncode": 0,
+      "log": "validate-env-relative.log"
+    },
+    {
+      "name": "validate-manifest-fallback",
+      "passed": true,
+      "returncode": 0,
+      "log": "validate-manifest-fallback.log"
+    },
+    {
+      "name": "validate-wrong-explicit-parent",
+      "passed": true,
+      "returncode": 1,
+      "log": "validate-wrong-explicit-parent.log"
+    },
+    {
+      "name": "validate-optimized",
+      "passed": true,
+      "returncode": 1,
+      "log": "validate-optimized.log"
+    },
+    {
+      "name": "full-mode-requires-core",
+      "passed": true,
+      "returncode": 2,
+      "log": "full-mode-requires-core.log"
+    },
+    {
+      "name": "reject-corrupt-rom",
+      "passed": true,
+      "returncode": 1,
+      "log": "reject-corrupt-rom.log"
+    },
+    {
+      "name": "reject-corrupt-source",
+      "passed": true,
+      "returncode": 1,
+      "log": "reject-corrupt-source.log"
+    }
+  ],
+  "preflight_preserved_assets_and_builds": true,
+  "rebuilds": [
+    {
+      "path": "relocated source/native/builds/2026-11-18_01-32-28_442363Z_sage-lab",
+      "sha256": "bef8ef1a565ddd7a334794417d090c26ad361bd102c69add13114bab265cfc2d",
+      "payload_sha256": "5b3bd9546ee2c79244958d8b3d395e064d47809669af96d45b6d248a68a5d6ad",
+      "byte_identical": true
+    },
+    {
+      "path": "relocated source/native/builds/2026-11-18_01-32-28_641953Z_sage-lab",
+      "sha256": "bef8ef1a565ddd7a334794417d090c26ad361bd102c69add13114bab265cfc2d",
+      "payload_sha256": "5b3bd9546ee2c79244958d8b3d395e064d47809669af96d45b6d248a68a5d6ad",
+      "byte_identical": true
+    }
+  ],
+  "assets_byte_identical": true,
+  "rom_sha256": "bef8ef1a565ddd7a334794417d090c26ad361bd102c69add13114bab265cfc2d",
+  "payload_sha256": "5b3bd9546ee2c79244958d8b3d395e064d47809669af96d45b6d248a68a5d6ad",
+  "elapsed_seconds": 2.676
+}
