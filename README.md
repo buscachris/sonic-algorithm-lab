@@ -159,8 +159,12 @@ Real hardware and human listening have not been tested.
 
 ## Credits and scope
 
-This is an unofficial Sonic modification built on the user's local SAGE 2010
-template. Sonic, the base engine, artwork, and sound assets belong to their
-respective creators and rights holders. The lab implementations, integration,
-build tools, and validation are documented here; no license for the original
-game or third-party material is granted by this repository.
+Sonic Algorithm Lab is an unofficial modification built on a local copy of the
+Sonic the Hedgehog 1 @ SAGE 2010 template. Christian Busca licenses all original
+contributions to this repository under the [MIT License](LICENSE), including
+the algorithm implementations, engine integration, build tools, tests, and
+documentation.
+
+Sonic, the SAGE 2010 template, the base engine, and third-party artwork and
+audio remain the property of their respective creators and rights holders.
+Their existing terms also apply to game content visible in the screenshots.
