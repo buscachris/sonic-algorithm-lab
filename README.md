@@ -1,7 +1,6 @@
 # Sonic Algorithm Lab
 
-**Play an algorithm, one jump at a time.** Sonic Algorithm Lab turns a Mega
-Drive / Genesis game into twelve interactive computer-science demonstrations.
+I turned twelve algorithms into playable rooms inside a Mega Drive / Genesis game.
 Move Sonic through a Green Hill hub, enter an algorithm room, and land on
 pressure switches to step, run, reset, or change its input.
 
@@ -159,9 +158,7 @@ Real hardware and human listening have not been tested.
 
 ## Credits and scope
 
-Sonic Algorithm Lab is an unofficial modification built on a local copy of the
-Sonic the Hedgehog 1 @ SAGE 2010 template. Christian Busca licenses all original
-contributions to this repository under the [MIT License](LICENSE), including
+I built this unofficial modification on a local copy of the Sonic the Hedgehog 1 @ SAGE 2010 template. I license my original contributions under the [MIT License](LICENSE), including
 the algorithm implementations, engine integration, build tools, tests, and
 documentation.
 
